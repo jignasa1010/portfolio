@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jignasakapadiya.github.io/portfolio",
+  "homepage": "https://jignasa1010.github.io/portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
