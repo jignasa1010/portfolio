@@ -50,16 +50,11 @@ export default function Portfolio() {
             </p>
 
             <p className="mt-8 text-gray-300 leading-8 text-lg">
-              Accomplished Senior React Native Developer | Mobile Architect | Technical Team Lead with 11+ years of experience in designing, developing, and delivering cross-platform mobile applications using React Native, TypeScript, JavaScript, Redux, Redux Toolkit, GraphQL, Firebase, REST APIs, and CI/CD. Expertise in iOS and Android development, mobile application architecture, performance optimization, push notifications, deep linking, payment gateway integration, Google Maps, Agile/Scrum methodologies, and cloud-based solutions. Proven ability to lead development teams, manage end-to-end project delivery, conduct code reviews, and build scalable enterprise applications for healthcare, logistics, transportation, e-commerce, fintech, and SaaS domains. Strong focus on software quality, user experience, and delivering business-critical mobile solutions.            </p>
+              Senior React Native Team Lead with 11+ years of experience building scalable iOS and Android applications. Proven track record in mobile architecture, team leadership, performance optimization, and enterprise application delivery across healthcare, logistics, fintech, transportation, and SaaS industries.
+                     </p>
 
-            <p className="mt-6 text-gray-400 leading-8 text-lg">
-              Proven expertise in leading development teams, architecting scalable mobile solutions, and building production-ready iOS and React Native applications with exceptional user experience. Skilled in React Native, Firebase, Redux, API integration, real-time systems, and mobile performance optimization.
-            </p>
-
-            <p className="mt-6 text-gray-400 leading-8 text-lg">
-              Successfully delivered multiple live applications on App Store and Google Play while collaborating directly with international clients, managing teams, mentoring developers, and driving projects from concept to deployment.
-            </p>
-
+            
+            
             <div className="mt-8 flex flex-wrap gap-3">
               <span className="bg-indigo-500/20 text-indigo-300 px-4 py-2 rounded-full">
                 11+ Years Experience
@@ -106,6 +101,39 @@ export default function Portfolio() {
         </div>
       </section>
 
+      <section className="py-16 px-6 md:px-20 bg-black">
+  <div className="max-w-6xl mx-auto">
+    <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+
+      <div className="text-center">
+        <h3 className="text-5xl font-bold text-indigo-400">11+</h3>
+        <p className="text-gray-400 mt-2">Years Experience</p>
+      </div>
+
+      <div className="text-center">
+        <h3 className="text-5xl font-bold text-indigo-400">30+</h3>
+        <p className="text-gray-400 mt-2">Apps Delivered</p>
+      </div>
+
+      <div className="text-center">
+        <h3 className="text-5xl font-bold text-indigo-400">10+</h3>
+        <p className="text-gray-400 mt-2">Developers Mentored</p>
+      </div>
+
+      <div className="text-center">
+        <h3 className="text-5xl font-bold text-indigo-400">15+</h3>
+        <p className="text-gray-400 mt-2">International Clients</p>
+      </div>
+
+      <div className="text-center">
+        <h3 className="text-5xl font-bold text-indigo-400">1M+</h3>
+        <p className="text-gray-400 mt-2">Users Impacted</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
       {/* About */}
       {/* <section className="max-w-6xl mx-auto px-6 py-20 md:px-20">
         <h2 className="text-4xl font-bold mb-8">About Me</h2>
@@ -132,6 +160,76 @@ export default function Portfolio() {
         </div>
       </section>
 
+      <section className="max-w-6xl mx-auto px-6 py-20 md:px-20">
+  <h2 className="text-4xl font-bold mb-10">
+    Leadership & Engineering Excellence
+  </h2>
+
+  <div className="grid md:grid-cols-2 gap-8">
+
+    <div className="bg-gray-900 rounded-3xl p-8">
+      <h3 className="text-2xl font-bold text-indigo-400">
+        Technical Leadership
+      </h3>
+
+      <ul className="mt-6 space-y-4 text-gray-400">
+        <li>Led React Native development teams</li>
+        <li>Architecture planning & design reviews</li>
+        <li>Code reviews and quality governance</li>
+        <li>CI/CD implementation and release management</li>
+        <li>Performance optimization strategies</li>
+      </ul>
+    </div>
+
+    <div className="bg-gray-900 rounded-3xl p-8">
+      <h3 className="text-2xl font-bold text-indigo-400">
+        Team Management
+      </h3>
+
+      <ul className="mt-6 space-y-4 text-gray-400">
+        <li>Mentored junior and mid-level developers</li>
+        <li>Sprint planning and Agile delivery</li>
+        <li>Client communication and stakeholder management</li>
+        <li>Requirement analysis and estimations</li>
+        <li>End-to-end project ownership</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section className="max-w-6xl mx-auto px-6 py-20 md:px-20">
+  <h2 className="text-4xl font-bold mb-10">
+    Architecture Expertise
+  </h2>
+
+  <div className="flex flex-wrap gap-4">
+    {[
+      "Clean Architecture",
+      "MVVM",
+      "SOLID Principles",
+      "Design Patterns",
+      "Offline First Apps",
+      "Scalable State Management",
+      "Microservices Integration",
+      "Mobile Security",
+      "Performance Optimization",
+      "CI/CD Automation",
+      "Fastlane",
+      "CodePush",
+      "Native Module Development",
+      "Enterprise Mobility"
+    ].map((item) => (
+      <span
+        key={item}
+        className="bg-indigo-500/10 border border-indigo-500/30 px-4 py-3 rounded-full"
+      >
+        {item}
+      </span>
+    ))}
+  </div>
+</section>
+
       {/* Experience */}
       <section className="max-w-6xl mx-auto px-6 py-20 md:px-20">
         <h2 className="text-4xl font-bold mb-10">Experience</h2>
@@ -147,14 +245,7 @@ export default function Portfolio() {
             </p>
 
             <p className="text-gray-400 mt-4 leading-7">
-              Leading cross-functional development teams in designing, developing,
-              and deploying scalable React Native applications for iOS and Android
-              platforms. Responsible for mobile application architecture, code reviews,
-              performance optimization, client communication, project planning, and
-              Agile delivery. Collaborate directly with international stakeholders to
-              deliver enterprise-grade solutions, mentor developers, implement CI/CD
-              pipelines, integrate REST APIs and third-party services, and ensure
-              high-quality software delivery aligned with business objectives.
+              Leading a team of React Native developers delivering enterprise-grade mobile applications across healthcare, logistics, transportation, fintech, and SaaS domains. Responsible for architecture decisions, sprint planning, code quality governance, CI/CD pipelines, client communication, mentoring developers, and successful production releases across App Store and Google Play.
             </p>
           </div>
 
@@ -2995,6 +3086,57 @@ export default function Portfolio() {
 
         </div>
       </section>
+
+      {/* Why hire me  */}
+      <section className="bg-gray-900 py-20 px-6 md:px-20">
+  <div className="max-w-6xl mx-auto">
+
+    <h2 className="text-4xl font-bold mb-10">
+      Why Work With Me
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-6">
+
+      <div className="bg-black rounded-3xl p-8">
+        <h3 className="text-xl font-bold">
+          11+ Years Experience
+        </h3>
+      </div>
+
+      <div className="bg-black rounded-3xl p-8">
+        <h3 className="text-xl font-bold">
+          Team Leadership
+        </h3>
+      </div>
+
+      <div className="bg-black rounded-3xl p-8">
+        <h3 className="text-xl font-bold">
+          Mobile Architecture Expert
+        </h3>
+      </div>
+
+      <div className="bg-black rounded-3xl p-8">
+        <h3 className="text-xl font-bold">
+          Enterprise Project Delivery
+        </h3>
+      </div>
+
+      <div className="bg-black rounded-3xl p-8">
+        <h3 className="text-xl font-bold">
+          App Store & Play Store Specialist
+        </h3>
+      </div>
+
+      <div className="bg-black rounded-3xl p-8">
+        <h3 className="text-xl font-bold">
+          International Client Experience
+        </h3>
+      </div>
+
+    </div>
+  </div>
+</section>
+
       {/* Contact */}
       <section className="max-w-4xl mx-auto px-6 py-20 text-center">
         <h2 className="text-4xl font-bold">Let’s Work Together</h2>
