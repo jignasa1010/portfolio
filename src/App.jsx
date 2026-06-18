@@ -2,15 +2,37 @@ export default function Portfolio() {
 
   const skills = [
     "React Native",
+    "TypeScript",
+    "JavaScript",
     "Redux",
+    "Redux Toolkit",
+    "Context API",
+    "GraphQL",
+    "REST APIs",
     "Firebase",
+    "AWS",
+    "CI/CD",
+    "Git",
+    "GitHub Actions",
+    "Jest",
+    "Push Notifications",
+    "Deep Linking",
+    "Payment Gateway Integration",
+    "Stripe",
+    "Razorpay",
+    "Google Maps",
+    "Geolocation",
     "iOS Development",
     "Android Development",
-    "Functional Components",
-    "Google Maps",
-    "REST APIs",
-    "Team Leadership",
+    "Native Modules",
+    "Performance Optimization",
     "Mobile App Architecture",
+    "MVVM",
+    "Clean Architecture",
+    "Agile",
+    "Scrum",
+    "Code Review",
+    "Team Leadership"
   ];
 
   return (
@@ -28,8 +50,7 @@ export default function Portfolio() {
             </p>
 
             <p className="mt-8 text-gray-300 leading-8 text-lg">
-              Results-driven Team Leader and Senior React Native Developer with 11+ years of experience delivering high-performance mobile applications for global clients across healthcare, transportation, e-commerce, logistics, and on-demand service industries.
-            </p>
+              Accomplished Senior React Native Developer | Mobile Architect | Technical Team Lead with 11+ years of experience in designing, developing, and delivering cross-platform mobile applications using React Native, TypeScript, JavaScript, Redux, Redux Toolkit, GraphQL, Firebase, REST APIs, and CI/CD. Expertise in iOS and Android development, mobile application architecture, performance optimization, push notifications, deep linking, payment gateway integration, Google Maps, Agile/Scrum methodologies, and cloud-based solutions. Proven ability to lead development teams, manage end-to-end project delivery, conduct code reviews, and build scalable enterprise applications for healthcare, logistics, transportation, e-commerce, fintech, and SaaS domains. Strong focus on software quality, user experience, and delivering business-critical mobile solutions.            </p>
 
             <p className="mt-6 text-gray-400 leading-8 text-lg">
               Proven expertise in leading development teams, architecting scalable mobile solutions, and building production-ready iOS and React Native applications with exceptional user experience. Skilled in React Native, Firebase, Redux, API integration, real-time systems, and mobile performance optimization.
@@ -86,12 +107,12 @@ export default function Portfolio() {
       </section>
 
       {/* About */}
-      <section className="max-w-6xl mx-auto px-6 py-20 md:px-20">
+      {/* <section className="max-w-6xl mx-auto px-6 py-20 md:px-20">
         <h2 className="text-4xl font-bold mb-8">About Me</h2>
         <div className="bg-gray-900 rounded-3xl p-8 shadow-lg">
           <p className="text-gray-400 text-lg leading-9 mt-6"> Experienced in leading development teams, handling end-to-end project execution, mentoring developers, and collaborating directly with clients to transform business requirements into successful digital products. Strong expertise in React Native, Firebase, Redux, REST APIs, real-time features, Google Maps integration, push notifications, and mobile app optimization. </p> <p className="text-gray-400 text-lg leading-9 mt-6"> Successfully delivered multiple live applications across healthcare, logistics, transportation, e-commerce, social networking, and on-demand service industries with apps published on both the App Store and Google Play Store. Recognized for strong leadership, problem-solving ability, technical excellence, and commitment to delivering impactful mobile solutions. </p> <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10"> <div className="bg-gray-800 rounded-2xl p-4 text-center"> <h3 className="text-2xl font-bold text-indigo-400">11+</h3> <p className="text-gray-400 mt-1">Years Experience</p> </div> <div className="bg-gray-800 rounded-2xl p-4 text-center"> <h3 className="text-2xl font-bold text-indigo-400">30+</h3> <p className="text-gray-400 mt-1">Apps Delivered</p> </div> <div className="bg-gray-800 rounded-2xl p-4 text-center"> <h3 className="text-2xl font-bold text-indigo-400">React Native</h3> <p className="text-gray-400 mt-1">Expert</p> </div> <div className="bg-gray-800 rounded-2xl p-4 text-center"> <h3 className="text-2xl font-bold text-indigo-400">Team</h3> <p className="text-gray-400 mt-1">Leadership</p> </div> </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Skills */}
       <section className="bg-gray-900 py-20 px-6 md:px-20">
@@ -118,29 +139,45 @@ export default function Portfolio() {
         <div className="space-y-8">
           <div className="bg-gray-900 rounded-3xl p-8 border border-gray-800">
             <h3 className="text-2xl font-bold">
-              Team Leader & Sr. React Native Developer
+              Team Leader | Senior React Native Developer
             </h3>
-            <p className="text-indigo-400 mt-2">iQlance Solutions Pvt. Ltd | 2021 - Present</p>
+
+            <p className="text-indigo-400 mt-2">
+              iQlance Solutions Pvt. Ltd | 2021 - Present
+            </p>
+
             <p className="text-gray-400 mt-4 leading-7">
-              Leading development teams and building high-performance mobile
-              applications while directly collaborating with international
-              clients.
+              Leading cross-functional development teams in designing, developing,
+              and deploying scalable React Native applications for iOS and Android
+              platforms. Responsible for mobile application architecture, code reviews,
+              performance optimization, client communication, project planning, and
+              Agile delivery. Collaborate directly with international stakeholders to
+              deliver enterprise-grade solutions, mentor developers, implement CI/CD
+              pipelines, integrate REST APIs and third-party services, and ensure
+              high-quality software delivery aligned with business objectives.
             </p>
           </div>
 
           <div className="bg-gray-900 rounded-3xl p-8 border border-gray-800">
             <h3 className="text-2xl font-bold">
-              Sr. React Native Developer
+              Senior React Native Developer
             </h3>
+
             <p className="text-indigo-400 mt-2">
               Provitious Technologies Pvt. Ltd | 2018 - 2021
             </p>
+
             <p className="text-gray-400 mt-4 leading-7">
-              Developed and deployed multiple mobile applications focused on
-              transportation, healthcare, delivery and lifestyle domains.
+              Designed, developed, and maintained cross-platform mobile applications
+              using React Native for healthcare, transportation, logistics, delivery,
+              and lifestyle industries. Implemented scalable mobile architectures,
+              integrated REST APIs and third-party services, managed state using Redux,
+              optimized application performance, and ensured seamless deployment on iOS
+              and Android platforms. Collaborated with product managers, designers, and
+              backend teams in Agile environments to deliver high-quality, user-centric
+              mobile solutions.
             </p>
           </div>
-
           <div className="bg-gray-900 rounded-3xl p-8 border border-gray-800">
             <h3 className="text-2xl font-bold">Sr. iOS Developer</h3>
             <p className="text-indigo-400 mt-2">
@@ -149,50 +186,59 @@ export default function Portfolio() {
           </div>
 
           <div className="bg-gray-900 rounded-3xl p-8 border border-gray-800">
-            <h3 className="text-2xl font-bold">Sr. iOS Developer</h3>
+            <h3 className="text-2xl font-bold">
+              Senior iOS Developer
+            </h3>
 
             <p className="text-indigo-400 mt-2">
               Vertilex Solutions Pvt. Ltd | Apr 2016 - May 2018
             </p>
 
-            <p className="text-gray-400 mt-4 leading-8 text-lg">
-              Worked as a Senior iOS Developer focused on designing and developing
-              high-quality, scalable, and user-friendly iOS applications across multiple
-              business domains. Collaborated closely with product managers, UI/UX
-              designers, and backend teams to convert business requirements into robust
-              technical solutions and seamless mobile experiences.
+            <p className="text-gray-400 mt-4 leading-7">
+              Designed, developed, and maintained high-performance native iOS applications
+              using Swift and Objective-C for social networking, food delivery, service
+              booking, CRM, and marketplace platforms. Collaborated with product managers,
+              UI/UX designers, and backend teams to translate business requirements into
+              scalable mobile solutions while ensuring exceptional user experience and
+              application reliability.
             </p>
 
-            <p className="text-gray-400 mt-4 leading-8 text-lg">
-              Contributed to complete mobile application development lifecycle including
-              architecture planning, API integration, performance optimization, testing,
-              deployment, and App Store releases. Successfully delivered applications in
-              social networking, food delivery, service booking, CRM, and marketplace
-              platforms while maintaining clean code standards and application stability.
+            <p className="text-gray-400 mt-4 leading-7">
+              Managed the complete software development lifecycle including mobile
+              architecture design, REST API integration, third-party SDK implementation,
+              push notifications, performance optimization, testing, debugging, and App
+              Store deployment. Applied MVC/MVVM design patterns, code review best
+              practices, and Agile methodologies to deliver secure, scalable, and
+              enterprise-grade iOS applications with high performance and maintainability.
             </p>
           </div>
 
           <div className="bg-gray-900 rounded-3xl p-8 border border-gray-800">
-            <h3 className="text-2xl font-bold">iOS Developer</h3>
+            <h3 className="text-2xl font-bold">
+              iOS Developer
+            </h3>
 
             <p className="text-indigo-400 mt-2">
               Indian Text to Speech Pvt. Ltd | Oct 2013 - Apr 2016
             </p>
 
-            <p className="text-gray-400 mt-4 leading-8 text-lg">
-              Started professional journey as an iOS Developer, focusing on developing
-              and maintaining feature-rich mobile applications with smooth performance
-              and intuitive user experiences. Worked closely with product managers,
-              designers, and backend teams to transform business requirements into
-              reliable and scalable iOS solutions.
+            <p className="text-gray-400 mt-4 leading-7">
+              Developed and maintained native iOS applications using Objective-C and
+              Swift, delivering high-quality mobile solutions focused on audio
+              streaming, text-to-speech, news, and content-based platforms.
+              Collaborated with product managers, UI/UX designers, and backend teams to
+              translate business requirements into scalable, user-friendly mobile
+              applications with optimal performance and reliability.
             </p>
 
-            <p className="text-gray-400 mt-4 leading-8 text-lg">
-              Gained strong experience in mobile application architecture, API
-              integration, audio-based applications, news platforms, and App Store
-              deployment processes. Contributed to building innovative applications while
-              following clean coding practices, debugging complex issues, and ensuring
-              application quality across multiple iOS devices.
+            <p className="text-gray-400 mt-4 leading-7">
+              Contributed to the complete mobile application development lifecycle,
+              including application design, REST API integration, third-party SDK
+              implementation, debugging, performance optimization, testing, and App
+              Store deployment. Gained hands-on experience in mobile architecture,
+              data management, version control, and application maintenance while
+              following coding standards, Agile methodologies, and best practices for
+              delivering secure and scalable iOS applications.
             </p>
           </div>
 
@@ -205,6 +251,208 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-10">Featured Projects</h2>
 
+          <div className="group relative bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-[32px] p-8 hover:border-blue-500/60 transition-all duration-300 hover:-translate-y-2 shadow-2xl overflow-hidden">
+
+            <div className="absolute top-0 right-0 w-40 h-40 bg-blue-500/10 blur-3xl rounded-full"></div>
+
+            <div className="relative z-10 flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
+
+              <div>
+                <div className="flex items-center gap-3 flex-wrap">
+                  <h3 className="text-3xl font-bold text-white tracking-tight">
+                    MCPH (User & Driver)
+                  </h3>
+
+                  <span className="bg-emerald-500/20 text-emerald-400 text-sm px-4 py-1 rounded-full border border-emerald-500/20">
+                    Live Project
+                  </span>
+                </div>
+
+                <p className="text-blue-400 mt-3 text-lg font-medium">
+                  Smart Package Delivery & Apartment Logistics Platform
+                </p>
+
+                <p className="text-gray-400 mt-6 leading-8 text-lg max-w-3xl">
+                  Developed a complete package management ecosystem consisting of dedicated
+                  User and Driver applications. The platform enables apartment residents
+                  to track deliveries, receive real-time package notifications, and manage
+                  incoming shipments efficiently. The Driver application streamlines package
+                  pickup, route management, delivery verification, and logistics operations,
+                  creating a seamless end-to-end package handling experience.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-3 min-w-fit">
+
+                <a
+                  href="https://apps.apple.com/us/app/music-city-package-handlers/id6761530493"
+                  target="_blank"
+                  className="bg-white text-black px-5 py-3 rounded-2xl font-semibold text-center"
+                >
+                  iOS User App
+                </a>
+
+                <a
+                  href="https://apps.apple.com/us/app/driver-for-mcph/id6761542589"
+                  target="_blank"
+                  className="bg-white text-black px-5 py-3 rounded-2xl font-semibold text-center"
+                >
+                  iOS Driver App
+                </a>
+
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.apps.musiccitytenant"
+                  target="_blank"
+                  className="bg-green-600 px-5 py-3 rounded-2xl font-semibold text-center"
+                >
+                  Android User App
+                </a>
+
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.apps.musiccitydriver"
+                  target="_blank"
+                  className="bg-green-600 px-5 py-3 rounded-2xl font-semibold text-center"
+                >
+                  Android Driver App
+                </a>
+
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
+
+              <div className="bg-gray-900/70 border border-gray-800 rounded-2xl p-5 text-center">
+                <h4 className="text-2xl font-bold text-blue-400">Real-Time</h4>
+                <p className="text-gray-500 text-sm">Package Tracking</p>
+              </div>
+
+              <div className="bg-gray-900/70 border border-gray-800 rounded-2xl p-5 text-center">
+                <h4 className="text-2xl font-bold text-blue-400">Driver</h4>
+                <p className="text-gray-500 text-sm">Delivery Management</p>
+              </div>
+
+              <div className="bg-gray-900/70 border border-gray-800 rounded-2xl p-5 text-center">
+                <h4 className="text-2xl font-bold text-blue-400">Smart</h4>
+                <p className="text-gray-500 text-sm">Apartment Logistics</p>
+              </div>
+
+              <div className="bg-gray-900/70 border border-gray-800 rounded-2xl p-5 text-center">
+                <h4 className="text-2xl font-bold text-blue-400">Cross</h4>
+                <p className="text-gray-500 text-sm">Platform Apps</p>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div className="group relative bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-[32px] p-8 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2 shadow-2xl overflow-hidden">
+
+            <div className="absolute top-0 right-0 w-40 h-40 bg-orange-500/10 blur-3xl rounded-full"></div>
+
+            <div className="relative z-10 flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
+
+              <div>
+                <div className="flex items-center gap-3 flex-wrap">
+                  <h3 className="text-3xl font-bold text-white tracking-tight">
+                    SpitzenMark
+                  </h3>
+
+                  <span className="bg-emerald-500/20 text-emerald-400 text-sm px-4 py-1 rounded-full border border-emerald-500/20">
+                    Live Project
+                  </span>
+                </div>
+
+                <p className="text-orange-400 mt-3 text-lg font-medium">
+                  Gamified Corporate Wellness & Employee Engagement Platform
+                </p>
+
+                <p className="text-gray-400 mt-6 leading-8 text-lg max-w-3xl">
+                  SpitzenMark is a gamified corporate wellness platform that transforms
+                  physical activity into measurable performance, engagement, and team
+                  competition. Instead of tracking activity individually, the platform
+                  turns movement into a shared experience where employees compete through
+                  steps, heart rate, activity levels, leaderboards, and wellness
+                  challenges that drive motivation, consistency, and healthier workplace
+                  culture.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-3 min-w-fit">
+
+                <a
+                  href="https://apps.apple.com/us/app/spitzenmark/id6767535162"
+                  target="_blank"
+                  className="bg-white text-black px-5 py-3 rounded-2xl font-semibold text-center"
+                >
+                  iOS App
+                </a>
+
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.dinein"
+                  target="_blank"
+                  className="bg-green-600 px-5 py-3 rounded-2xl font-semibold text-center"
+                >
+                  Android App
+                </a>
+
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
+
+              <div className="bg-gray-900/70 border border-gray-800 rounded-2xl p-5 text-center">
+                <h4 className="text-2xl font-bold text-orange-400">Wellness</h4>
+                <p className="text-gray-500 text-sm">Activity Tracking</p>
+              </div>
+
+              <div className="bg-gray-900/70 border border-gray-800 rounded-2xl p-5 text-center">
+                <h4 className="text-2xl font-bold text-orange-400">Live</h4>
+                <p className="text-gray-500 text-sm">Leaderboards</p>
+              </div>
+
+              <div className="bg-gray-900/70 border border-gray-800 rounded-2xl p-5 text-center">
+                <h4 className="text-2xl font-bold text-orange-400">Team</h4>
+                <p className="text-gray-500 text-sm">Challenges</p>
+              </div>
+
+              <div className="bg-gray-900/70 border border-gray-800 rounded-2xl p-5 text-center">
+                <h4 className="text-2xl font-bold text-orange-400">Corporate</h4>
+                <p className="text-gray-500 text-sm">Engagement</p>
+              </div>
+
+            </div>
+
+            <div className="relative z-10 mt-10">
+              <h4 className="text-xl font-semibold text-white mb-5">
+                Tech Stack
+              </h4>
+
+              <div className="flex flex-wrap gap-3">
+                {[
+                  "React Native",
+                  "Redux Toolkit",
+                  "REST APIs",
+                  "Firebase",
+                  "Health Tracking",
+                  "Leaderboards",
+                  "Push Notifications",
+                  "Corporate Wellness",
+                  "App Store Deployment",
+                  "Play Store Deployment",
+                ].map((tech) => (
+                  <span
+                    key={tech}
+                    className="bg-orange-500/10 border border-orange-500/20 text-orange-300 px-4 py-2 rounded-full text-sm font-medium"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* add here */}
+          
           <div className="group relative bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-[32px] p-8 hover:border-indigo-500/60 transition-all duration-300 hover:-translate-y-2 shadow-2xl overflow-hidden">
 
             {/* Top Glow */}
@@ -2740,10 +2988,11 @@ export default function Portfolio() {
             </div>
           </div>
 
+
           {/* //new */}
 
 
-          
+
         </div>
       </section>
       {/* Contact */}
