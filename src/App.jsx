@@ -116,7 +116,7 @@ export default function Portfolio() {
       </div>
 
       <div className="text-center">
-        <h3 className="text-5xl font-bold text-indigo-400">10+</h3>
+        <h3 className="text-5xl font-bold text-indigo-400">8+</h3>
         <p className="text-gray-400 mt-2">Developers Mentored</p>
       </div>
 
@@ -126,8 +126,8 @@ export default function Portfolio() {
       </div>
 
       <div className="text-center">
-        <h3 className="text-5xl font-bold text-indigo-400">1M+</h3>
-        <p className="text-gray-400 mt-2">Users Impacted</p>
+        <h3 className="text-5xl font-bold text-indigo-400">100+</h3>
+        <p className="text-gray-400 mt-2">Production Releases</p>
       </div>
 
     </div>

@@ -25,3 +25,29 @@ git push
 
 npm run build 
 npm run deploy 
+
+
+git remote -v 
+git branch -a
+npm run deploy
+git fetch origin
+git branch -r
+
+
+
+
+git status
+git add .
+git commit -m "Updated portfolio content"
+git push origin main
+npm run build
+npm run deploy
+
+git log origin/gh-pages --oneline -1
+
+Open Portfolio
+Open:
+https://jignasa1010.github.io/portfolio/?v=12345
+Use a different number every time to avoid cache.
+Example:
+https://jignasa1010.github.io/portfolio/?v=20260618
